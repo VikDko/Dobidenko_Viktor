@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+Var meses = [“Enero”,”Febrero”,”Marzo”,”Abril”,”Mayo”,”Junio”,”Julio”,”Agosto”,”Septiembre”,”Octubre”,”Noviembre”,”Diciembre”];
+Val1 = window.prompt(“Ingrese el numero del mes seleccionado”)
+Document.write(meses[val1-1]);
+</script>
+</body>
+</html>
