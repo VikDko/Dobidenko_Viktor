@@ -1,0 +1,6 @@
+var numero = prompt("Escriba un numero entero positivo para el calculo del factorial")
+var facto = 1; 
+for (i=1; i<=n; i++) {
+ facto = facto * i; 
+} 
+console.log(facto)
