@@ -1,0 +1,6 @@
+function Ejercicio7(string) {
+    let split = string.split("");
+    let reverse = split.reverse();
+    let joint = reverse.join("");
+    console.log(joint);
+   }
