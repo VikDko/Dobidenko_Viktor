@@ -1,0 +1,15 @@
+<!--Definimos tipo de documento html-->
+<!DOCTYPE html>
+<html>
+<body>
+<!--Creamos script ejecutable en documento, establecemos dos valores: nombre y apellido, 
+nombre + apellido = nombre del usuario-->
+<script>
+Let dato, resultado;
+Val1 = window.prompt(“Introduce tu nombre”, “…”);
+Val2 = window.prompt(“Introduce tu apellido”, “…”);
+Resultado = `Concatenado tu nombre y apellido es: ${val1} ${val2} ` ;
+Document.write(resultado);
+</script>
+</body>
+</html>
