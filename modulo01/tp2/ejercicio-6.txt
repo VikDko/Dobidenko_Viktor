@@ -1,0 +1,19 @@
+Function Ejercicio6()
+{
+ //se ingresa el texto, ccon el for lo recorremos y se revisa cada letra para encontrar una 
+vocal
+Var str=prompt(“Ingrese el texto\n”, “ “);
+For(var i = 0; i<str.length; i++)
+{
+If (str.charAt(i) ==’a’ || str.charAt(i) == ‘e’ || str.charAt(i) ==’i’ || str.charAt(i) == ‘o’ || str.charAt(i) == ‘u’ || str.charAt(i) == ‘A’ || Str.charAt(i) == ‘E’ || str.charAt(i) ==’I’ || str.charAt(i) ==’O’ || str.charAt(i) == ‘U’)
+{
+Document.write(“El texto ingresado es :” +str+ “<br/>”);
+Document.write(“La primera vocal es :”+str.charAt(i)+”<br/>”);
+Var pos = i+1;
+Document.write(“La posicion de la primera vocal “ +str.charAt(i)+ “ es:” +pos+”\n”);
+Exit;
+}
+}
+Document.write(“El texto ingresado es:” +str+ “<br/>”);
+Document.write(“El texto ingresado no contiene vocales”);
+}
