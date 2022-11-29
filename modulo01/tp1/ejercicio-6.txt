@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+Var semana = [“Lunes”,”Martes”,”Miercoles”,”Jueves”,”Viernes”,”Sabado”,”Domingo”];
+For (i=0; i < semana.length; i++) {
+Document.write(semana[i], “</br>”);
+}
+</script>
+</body>
+</html>
