@@ -1,0 +1,20 @@
+<html>
+<body>
+<script type=”text/javascript”>
+Const A = “Hola”;
+Let B = “ mundo!”;
+Document.write(“Constante A contiene “ + A );
+Document.write(“</br>”);
+Document.write(“Variable B contiene “ + B );
+Document.write(“</br>”);
+Document.write(A + B );
+</script>
+<p>El signo ‘+’ sirve para concatenar cadenas de texto</p>
+</body>
+</html>
+
+
+Resultado de ejecución en navegador: Constante A contiene Hola
+Variable B contiene mundo!
+Hola mundo!
+El signo ‘+’ sirve para concatenar cadenas de texto
