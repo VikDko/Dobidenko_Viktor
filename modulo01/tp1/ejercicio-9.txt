@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+Var vocales = [“A”,”E”,”I”,”O”,”U”];
+For (i=0; i < vocales.length; i++) {
+Document.write(vocales[i], “</br>”);
+}
+</script>
+</body>
+</html>
