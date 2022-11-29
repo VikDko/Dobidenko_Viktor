@@ -1,0 +1,7 @@
+function Ejercicio4(num) {
+    if ((num % 2) == 0) {
+    console.log(num + " Numero ingresado es PAR.");
+    } else {
+    console.log(num + " Numero ingresado es IMPAR.");
+    }
+   }
