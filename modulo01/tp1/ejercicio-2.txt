@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+Let A, B;
+A = 9;
+B = 7;
+Resultado = A + B;
+Alert (`La suma de A+B es: ${resultado} ` );
+Alert (`La diferencia de A-B es: ${A-B} ` );
+Alert (`La multiplicación de AxB es: ${A*B}` );
+Alert (`La división de A/B es: ${resultado=A/B} ` );
+</script>
+</body>
+</html>
+
+Resultado de ejecución en navegador: A+B = 16
