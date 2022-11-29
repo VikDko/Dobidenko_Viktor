@@ -1,0 +1,16 @@
+function Ejercicio8() {
+    document.open();
+    let numeros = [];
+    for (let i = 0; i < 100; i++) {
+    let nuevoNum = Math.floor(Math.random() * 100);
+    if (numeros.includes(nuevoNum)) {
+    i = i - 1;
+    } else {
+    numeros.push(nuevoNum);
+    document.write((i+1) + " - " + numeros[i]);
+    document.write("<br>");
+    }
+    }
+    console.log(numeros.length);
+    document.close();
+   }
