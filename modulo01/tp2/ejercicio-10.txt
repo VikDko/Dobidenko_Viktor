@@ -1,0 +1,7 @@
+var mes=parseInt(prompt("Escriba un numero del 1 al 12"))
+var año=parseInt(prompt("Escriba el año"))
+function Ejercicio10(mes, año) {
+return new Date(año, mes, 0).getDate();
+}
+var date =new Date();
+console.log("El "+ mes + " mes de " + año + " tiene " + Ejercicio10(mes,año) + " dias.")
