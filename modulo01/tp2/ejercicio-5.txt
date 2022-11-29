@@ -1,0 +1,9 @@
+function Ejercicio5(string) {
+    if (string === string.toUpperCase()) {
+    console.log("El texto esta completamente en mayúsculas.");
+    } else if (string === string.toLowerCase()) {
+    console.log("El texto esta completamente en minúsculas.");
+    } else {
+    console.log("El texto esta en mayúsculas y minúsculas.");
+    }
+   }
