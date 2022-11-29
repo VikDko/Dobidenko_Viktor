@@ -1,0 +1,22 @@
+function Ejercicio1() {
+    let verdadero, char; //define dos variables que ingresan al array
+    var valores = [verdadero, false, 2, "hola", "mundo", 3, char];
+    let stringMayor = "";
+    let soloStrings = [];
+    for (let i = 0; i <= valores.length; i++) {
+    let aux = 0;
+    if (typeof valores[i] == "string") {
+    soloStrings.push(valores[i])
+    if (valores[i].length > aux) {
+    stringMayor = valores[i];
+    }
+    }
+    }
+    console.log("El elemento de texto mayor es: " + stringMayor);
+    console.log("Elementos de texto (menor a mayor) :");
+    console.log(soloStrings.sort());
+    console.log("Resultado suma: " + (valores[2] + valores[5]));
+    console.log("Resultado resta: " + (valores[2] - valores[5]));
+    console.log("Resultado multiplicación: " + (valores[2] * valores[5]));
+    console.log("Resultado división: " + (valores[2] / valores[5]));
+   }
