@@ -1,0 +1,15 @@
+<!--Definimos tipo de documento html -->
+<!DOCTYPE html>
+<html>
+<!--Volcamos informacion de metadata en <head> y definimos titulo del documento -->
+<head>
+<title>Ejercicio 1</title>
+</head>
+<!--Definimos javascripts (lado del cliente), creamos un script ejectutable -->
+<body>
+<script>
+Document.writeln("<h1>Hola Mundo!</h1>");
+Document.writeln("<h2>Soy el primer script.</h2>");
+</script>
+</body>
+</html>
