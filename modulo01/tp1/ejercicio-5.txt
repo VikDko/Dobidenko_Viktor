@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html><body>
+<script type=”text/javascript”>
+Let a, b;
+A = 3; b = 7;
+Resultado = a * b;
+Document.write(`Variable a contiene ${a} <br> ` );
+Document.write(`Variable b contiene ${b} <br> ` );
+Document.write(`El producto de a por b es ${resultado} `);
+</script>
+<p>Los puntos de interrupción son fundamentales para programar</p>
+</body>
+</html>
+
+
+Resultado de depuración en navegador: El error estaba en la 9na línea, el termino resultado no se hallaba definido correctamente, en vez de resultado estaba como result, de allí surgía el error y por eso no se ejecutaba la operación 3x7=21
